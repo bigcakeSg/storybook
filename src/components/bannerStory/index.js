@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import './styles.scss';
 
-const BannerStory = ({ text, black }) => {
+const BannerStory = ({ text, black, ...props }) => {
   return (
-    <div className={`banner${black ? ' banner--black' : ''}`}>
+    <div className={`banner${black ? ' banner--black' : ''}`} {...props}>
       <h1>{text}</h1>
     </div>
   );
