@@ -1,10 +1,12 @@
 import "./App.css";
-import Button from "./components/button";
+import BannerStory from "./components/bannerStory";
+import ButtonStory from "./components/buttonStory";
 
 function App() {
   return (
     <div className="App">
-      <Button
+      <BannerStory text="Bannière" />
+      <ButtonStory
         text="Test de bouton"
         theme="validation"
         size="medium"

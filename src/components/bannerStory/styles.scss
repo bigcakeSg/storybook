@@ -1,0 +1,19 @@
+.banner {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: solid 1px #555;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  & h1 {
+    font-size: 24px;
+    color: #555;
+    margin: 0;
+    padding: 0;
+  }
+  &--black {
+    background-color: #555;
+    & h1 {
+      color: #fff;
+    }
+  }
+}
